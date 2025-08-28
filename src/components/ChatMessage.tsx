@@ -23,7 +23,7 @@ export function ChatMessage({ content, isUser, timestamp }: ChatMessageProps) {
             : "bg-chat-assistant text-chat-assistant-foreground"
         }`}
       >
-        <div className="prose prose-sm max-w-none">
+        <div>
           <p className="text-sm leading-relaxed whitespace-pre-wrap">{content}</p>
         </div>
         {timestamp && (
