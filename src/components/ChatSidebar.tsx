@@ -60,7 +60,7 @@ export function ChatSidebar() {
   };
 
   return (
-    <Sidebar className="border-r bg-gradient-subtle" collapsible="icon">
+    <Sidebar className="border-r bg-gradient-subtle w-80" collapsible="icon">
       <SidebarContent className="p-4">
         <SidebarGroup>
           <SidebarGroupLabel className="text-sm font-medium text-muted-foreground mb-4">
