@@ -63,8 +63,8 @@ export function ChatInterface() {
         
         <div className="flex-1 flex flex-col">
           {/* Header */}
-          <header className="h-16 border-b bg-card/50 backdrop-blur-sm flex items-center px-6 gap-4">
-            <SidebarTrigger className="hover:bg-muted rounded-md p-2 transition-colors">
+          <header className="h-16 border-b bg-card/50 backdrop-blur-sm flex items-center px-6 gap-4 relative z-50">
+            <SidebarTrigger className="hover:bg-muted rounded-md p-2 transition-colors relative z-10">
               <Menu className="h-5 w-5" />
             </SidebarTrigger>
             <div>
