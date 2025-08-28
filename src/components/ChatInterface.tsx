@@ -61,11 +61,11 @@ export function ChatInterface() {
       <div className="min-h-screen w-full flex bg-gradient-subtle">
         <ChatSidebar />
         
-        <div className="flex-1 flex flex-col">
+        <div className="flex-1 flex flex-col relative">
           {/* Header */}
-          <header className="h-16 border-b bg-card/50 backdrop-blur-sm flex items-center px-6 gap-4 relative z-50">
-            <SidebarTrigger className="hover:bg-muted rounded-md p-2 transition-colors relative z-10">
-              <Menu className="h-5 w-5" />
+          <header className="h-16 border-b bg-card/80 backdrop-blur-sm flex items-center px-6 gap-4">
+            <SidebarTrigger className="shrink-0 p-2 hover:bg-primary/10 hover:text-primary rounded-lg transition-all duration-200 border border-border/50 hover:border-primary/30 shadow-custom-sm">
+              <Menu className="h-4 w-4" />
             </SidebarTrigger>
             <div>
               <h1 className="text-lg font-semibold">AI Chat Assistant</h1>
